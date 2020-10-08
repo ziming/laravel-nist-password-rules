@@ -12,7 +12,7 @@
     "require": {
         "php": ">=7.1",
         "laravel/framework": "^5.4||^6.0||^7.0||^8.0",
-        "divineomega/laravel-password-exposed-validation-rule": "^2.3.0"
+        "divineomega/laravel-password-exposed-validation-rule": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.6",
@@ -35,5 +35,11 @@
                 "LangleyFoxall\\LaravelNISTPasswordRules\\ServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ziming/laravel-password-exposed-validation-rule"
+        }
+    ]
 }
